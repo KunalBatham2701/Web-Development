@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clip</title>
+    <style>
+        div{
+            height: 100px;
+            width:400px; 
+            border:10px solid black;
+            box-sizing: content-box;
+            text-align: center;
+            padding:20px;
+            /* margin:10px; */
+            background: gray;
+        }
+        .image{
+            clip-path: circle(50% at 50% 50%);
+            margin-left: 35px;
+        }
+        .box1{
+            z-index: 1;
+            position:absolute;
+            top:450px;
+            left:20px;
+        }
+        .box2{
+            z-index: 2;
+            position:absolute;
+            top:465px;
+            left:40px;
+        }
+        .box3{
+            z-index: 3;
+            position:absolute;
+            top:480px;
+            left:60px;
+        }
+        .box4{
+            z-index: 4;
+            position:absolute;
+            top:495px;
+            left:80px;
+        }
+        .box5{
+            z-index: 5; 
+            position:absolute;
+            top:510px;
+            left:100px;
+        }
+
+    </style>
+</head>
+<body>
+    <img class="image" src="New folder/kunal.jpg" alt="not available">
+    <div class="box1">Kunal Batham</div>
+    <div class="box2">Kunal Batham</div>
+    <div class="box3">Kunal Batham</div>
+    <div class="box4">Kunal Batham</div>
+    <div class="box5">Kunal Batham</div>
+</body>
+</html>

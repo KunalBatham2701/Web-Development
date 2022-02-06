@@ -1,0 +1,65 @@
+/* everyting selector : just use *{} and changes will appear everywhere */
+table ,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    /* border-spacing: 100px;  no difference found */
+}
+td{
+    background-color: lightskyblue
+}
+th{
+    color: blanchedalmond;
+    background-color:blue;
+}
+#heading{
+    color:blanchedalmond;
+    background-color: blue;
+}
+#final{
+    color: yellow;
+    background-color: purple;
+}
+ul li[class]{
+    font-size: larger;
+}
+ul li[class="un"]{
+    font-style: inherit;
+    color: royalblue;
+}
+li[class~="u"]{
+    font-style: italic;
+}
+h3{
+    color: goldenrod;
+}
+p{
+    color:purple;
+}
+/* li{
+    list-style-type: none;
+} */
+.special{
+    color:lightslategray;
+    font-style: oblique;
+    font-weight:bold;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+p em {
+    color:lightskyblue;
+    background-color: blue;
+    padding: 5px;
+}
+p+em {
+    color:yellow;
+    background-color: black;
+    padding: 10px;
+}
+/* em .spec{
+    color:yellow;
+    background-color: black;      not working
+    padding: 10px;
+} */
