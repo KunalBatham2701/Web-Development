@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .full{
+            display:grid;
+            grid-template-columns: 1fr 5fr;
+            column-gap: 10px;
+        }
+        .bod{
+            display:grid;
+            grid-template-rows: 1fr 4fr 1fr;
+            height: 700px;
+            row-gap: 10px;
+        }
+        .ma{
+            display: grid;
+            grid-template-columns: 5fr 1fr;
+            column-gap: 10px;
+        }
+        .navigation{
+            padding: 20px;
+            background-color: rgb(255,187,0);
+        }
+        .he{
+            padding: 20px;
+            background-color: rgb(255,187,0);
+        }
+        .ar{
+            background-color: rgb(255,187,0);
+            padding: 20px;
+        }
+        .fo{
+            
+            padding: 20px;
+            background-color: rgb(255,187,0);
+        }
+    </style>
+</head>
+<body>
+    <div class="full">
+        <nav class="navigation">Nav</nav>
+        <div class="bod">
+            <div class="he">Header</div>
+            <div class="ma">
+                <div class="ar">Article</div>
+                <div class="ar">Ads</div>
+            </div>
+            <div class="fo">Footer</div>
+        </div>
+    </div>
+</body>
+</html>

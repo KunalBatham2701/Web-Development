@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+header{
+    background-color: greenyellow;
+    color: white;
+    padding :10px 20px 10px 70px
+}
+.next{
+    margin-top:0px;
+    font-size: 16px;
+}
+.container{
+    background-color: ghostwhite;
+    border: 0.05em solid gray;
+    border-radius: 5px;
+    margin: 10px 300px 10px 300px;
+}
+main{
+    padding :0px 30px 30px ;
+}
+.button{
+    background-color: greenyellow;
+    border:none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: lightseagreen;
+}
+/* input[type="submit"]{
+    background-color: rgb(233, 233, 183);
+    padding:12px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    width:100%;
+}
+input[type="submit"]:hover{
+    background-color: green;
+} */

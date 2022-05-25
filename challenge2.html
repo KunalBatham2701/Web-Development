@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge2</title>
+    <style>
+        .wrap{
+            display: flex;
+        }
+        h2{
+            text-align: center;
+            color:green;
+        }
+        
+        #box1{
+            background-color: gray;
+        }
+        #box2{
+            background-color: lightslategray;
+        }
+        #box3{
+            background-color: darkgray;
+        }
+        #box4{
+            background-color: lightgray;
+        }
+        @media screen and (min-width:800px) {
+            .box{
+            height:80px;
+            width:25%;
+            text-align: center;
+            padding-top: 70px;
+        }
+        }
+        @media screen and (min-width:400px) and  (max-width:800px){
+            .wrap{
+            display: flex;
+            flex-wrap: wrap;
+            }
+            .box{
+            height:80px;
+            width:50%;
+            text-align: center;
+            padding-top: 70px;
+        }
+        }
+        @media screen and (max-width:400px){
+            .wrap{
+            text-align: center;
+            padding-top: 70px;
+            display: block;
+        }
+        .box{
+            height:80px;
+            width:100%;
+            text-align: center;
+            padding-top: 70px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h2>Media Query for Columns-Increase or decrease the screen size to see the change</h2>
+    <div class="wrap">
+        <div class="box" id="box1">Name 1</div>
+        <div class="box" id="box2">Name 2</div>
+        <div class="box" id="box3">Name 3</div>
+        <div class="box" id="box4">Name 4</div>
+    </div>
+    
+</body>
+</html>

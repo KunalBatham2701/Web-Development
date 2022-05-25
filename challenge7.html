@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexboxchallenge3</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .full{
+            display:flex;
+        }
+        .navigation{
+            text-align: center;
+            flex-grow: 1;
+            /* width: 30%; */
+            height: 700px;
+            font-size: 40px;
+            background-color: beige;
+        }
+        .bod{
+            width: 80%;
+        }
+        header,footer{
+            height: 150px;
+            background-color: lightgreen;
+        }
+        main{
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="full">
+        <div class="navigation">
+            <nav>Nav</nav>
+        </div>
+        <div class="bod">
+            <header>
+                <h2>Header</h2>
+            </header>
+            <main>
+                <h2>Main</h2>
+            </main>
+            <footer>
+                <h2>Footer</h2>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
